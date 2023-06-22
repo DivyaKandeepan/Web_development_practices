@@ -1,0 +1,35 @@
+
+      /* Custom CSS */
+
+      /* Background color classes */
+      .bg-dark-orange {
+        background-color: #e44207;
+      }
+
+      /* Text color classes */
+      .text-gray {
+        color: rgb(173, 170, 170);
+      }
+
+      /* Button classes */
+      .btn-dark-orange {
+        background-color: #e44207;
+        color: #fff;
+      }
+
+      .btn-dark-orange:hover,
+      .btn-dark-orange:focus {
+        background-color: #ed860f;
+        color: #fff;
+        box-shadow: none;
+      }
+
+      .button-spacing {
+        margin-right: 30px;
+      }
+
+      /* Custom navbar and background color */
+      .custom-navbar-white,
+      .custom-bg-white {
+        background-color: #fff;
+      }

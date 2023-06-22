@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- css file link -->
+  <link hel="stylesheet" href="css/styles.css">
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Include Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Include your custom CSS file -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Include jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Include Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Include Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Your+Font+Name&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Protofolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="background-color: #e4e5e8;">
+    <div class="container text-center">
+      <h1 class="display-4">Hi, I'm DIVYA K</h1>
+      <p class="lead">A BCA Student | Aspiring Web Developer</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/profile-image.jfif" style="width: 50%; border-radius: 50%; border: 2px solid #000;" alt="Profile Image" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h2>About Me</h2>
+          <p>Hi, I'm Divya (she/her). I am a current BCA student at SDNB Vaishnav College For Women. I am driven to excel in my studies and make the most of every opportunity that comes my way. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education"   style="background-color: #e4e5e8;">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h4>BCA (Bachelor of Computer Applications)</h4>
+          <p class="text-muted">University Name</p>
+          <p>2020 - 2023</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Higher Secondary Education</h4>
+          <p class="text-muted">School Name</p>
+          <p>2019 - 2020</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/project1.jfif" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis sem
+                fermentum, convallis metus id.</p>
+              <a href="#" class="btn custom-btn-bg">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/project2.jfif" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis sem
+                fermentum, convallis metus id.</p>
+              <a href="#" class="btn custom-btn-bg">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/project3.jfif" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis sem
+                fermentum, convallis metus id.</p>
+              <a href="#" class="btn custom-btn-bg">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section ">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h4>Get In Touch</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius ut odio sed pellentesque.</p>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-envelope"></i> email@example.com</li>
+            <li><i class="fas fa-phone"></i> +1234567890</li>
+            <li><i class="fas fa-map-marker-alt"></i> City, Country</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container text-center">
+      <ul class="list-inline mb-0">
+        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+      <p>&copy; 2023 DIVYA Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

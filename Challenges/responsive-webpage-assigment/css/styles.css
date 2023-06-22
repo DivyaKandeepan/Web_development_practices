@@ -1,0 +1,189 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Your Font Name', sans-serif;
+    
+  }
+  
+  .hero-section {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+  }
+  
+  .section {
+    padding: 80px 0;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    color: #000000;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  /* Hero Section Styles */
+  .hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .hero-section p {
+    font-size: 24px;
+    color: #000000;
+  }
+  
+  /* About Section Styles */
+  #about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  #about p {
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  /* Education Section Styles */
+  #education h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  #education h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  #education p {
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  /* Projects Section Styles */
+
+  .custom-btn-bg{
+    background-color: #000000;
+    color: white;
+  }
+
+  #projects h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .card-text {
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .card-link {
+    font-size: 18px;
+    color: #000407;
+  }
+  
+  /* Contact Section Styles */
+  #contact{
+    background-color: #090101;
+    color: white;
+  }
+  #contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  #contact form {
+    margin-bottom: 30px;
+  }
+  
+  .form-group label {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .form-control {
+    height: 50px;
+    font-size: 18px;
+  }
+  
+  textarea.form-control {
+    height: 150px;
+  }
+  
+  button.btn-primary {
+    font-size: 18px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    color: #888888;
+  }
+  
+  .footer ul.list-inline li {
+    font-size: 24px;
+    margin-right: 15px;
+  }
+  
+  .footer ul.list-inline li a {
+    color: #000000;
+  }
+ 
