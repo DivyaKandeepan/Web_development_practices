@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form method="get" onsubmit="return validateForm()">
+  <span>First Name</span>
+  <input type="text" name="name" id="firstName"><br>
+  <span>Last Name</span>
+  <input type="text" name="Iname" id="lastName"><br>
+  <span>Age</span>
+  <input type="number" name="id" id="age"><br>
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+function validateForm() {
+  var firstName = document.getElementById("firstName").value;
+  var lastName = document.getElementById("lastName").value;
+  var age = parseInt(document.getElementById("age").value);
+  
+  // Validation alert firstname, last name, and age fields
+
+  if (!validateName(firstName) || !validateName(lastName)) {
+    alert("First name and last name should only contain English alphabets in lowercase.");
+    return false;
+  }
+
+  if (!validateLength(firstName, 2, 15) || !validateLength(lastName, 2, 15)) {
+    alert("First name and last name should be between 2 and 15 characters long.");
+    return false;
+  }
+
+  if (!validateAge(age)) {
+    alert("Age should be between 18 and 60.");
+    return false;
+  }
+
+  return true;
+}
+
+// functions to validate
+
+function validateName(name) {
+  var regex = /^[a-z]+$/;
+  return regex.test(name);
+}
+
+function validateLength(value, min, max) {
+  return value.length >= min && value.length <= max;
+}
+
+function validateAge(age) {
+  return age >= 18 && age <= 60;
+}
+</script>
+
+</body>
+</html>
